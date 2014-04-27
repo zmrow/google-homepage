@@ -82,8 +82,15 @@ li {
 }
 
 #footer ul {
-	padding: 0 0 0 25px;
+	padding: 0 25px 0 25px;
 	margin: 13px 0;
+	display: inline;
 }
+
+#footer ul li a {
+	color: #646464;
+}
+
+
 
 
