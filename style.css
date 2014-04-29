@@ -31,9 +31,20 @@ li {
 	font-size: small;
 }
 
+.sign_in {
+	color: white;
+	background: #4684ED;
+	outline: none;
+	display: inline-block;
+	padding: 0 12px;
+	border-radius: 2px;
+	font-weight: bold;
+	line-height: 28px;
+}
+
 .main {
 	text-align: center;
-	margin-top: 132px;
+	margin-top: 150px;
 }
 
 .main img {
@@ -48,6 +59,7 @@ li {
 	margin: auto;
 	margin-top: 15px;
 	margin-bottom: 10px;
+	border: 1px solid #4684ED; 
 }
 
 #search_buttons {
@@ -84,13 +96,26 @@ li {
 #footer ul {
 	padding: 0 25px 0 25px;
 	margin: 13px 0;
-	display: inline;
+	/*display: inline;*/
+}
+
+#footer ul li {
+	margin: 0 10px;
 }
 
 #footer ul li a {
 	color: #646464;
 }
 
+.footer_left {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
 
-
+.footer_right {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
 
